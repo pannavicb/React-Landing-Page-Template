@@ -1,11 +1,11 @@
 import React from "react";
 
-export const Testimonials = (props) => {
+export const Testimonials2 = (props) => {
   return (
-    <div id="testimonials">
+    <div id="testimonials2">
       <div className="container">
         <div className="section-title text-center">
-          <h2>Advisory Boards</h2>
+          <h2>General Chair & Technical Program Chair</h2>
         </div>
         <div className="row">
           {props.data

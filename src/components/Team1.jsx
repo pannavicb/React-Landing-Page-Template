@@ -1,18 +1,18 @@
 import React from "react";
 
-export const Team = (props) => {
+export const Team1 = (props) => {
   return (
-    <div id="team" className="text-center">
+    <div id="team2" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Organizer</h2>
+          <h2>Co-Organizer</h2>
           <p>
           </p>
         </div>
         <div id="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-sm-6 team">
+                <div key={`${d.name}-${i}`} className="col-sm-4 team">
                   <div className="thumbnail">                 
                     <img src={d.img} alt="..." className="team-img " />
                     <div className="caption">

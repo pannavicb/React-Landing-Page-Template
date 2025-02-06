@@ -5,10 +5,9 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Our Services</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          <h2>Our Conference</h2>
+          <p className="text-justify">
+            The annual ICITEE conference is an international forum for the presentation of new research results, innovative ideas, and experiences in the broad field of advanced and synergistic technologies.
           </p>
         </div>
         <div className="row">
@@ -19,7 +18,7 @@ export const Services = (props) => {
                   <i className={d.icon}></i>
                   <div className="service-desc">
                     <h3>{d.name}</h3>
-                    <p>{d.text}</p>
+                    <p  className="text-justify">{d.text}</p>
                   </div>
                 </div>
               ))

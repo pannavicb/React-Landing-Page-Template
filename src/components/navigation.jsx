@@ -1,6 +1,8 @@
 import React from "react";
+import 'font-awesome/css/font-awesome.min.css';
 
 export const Navigation = (props) => {
+
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -18,48 +20,51 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+            ICITEE 2025
           </a>{" "}
         </div>
 
         <div
           className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
+          id="bs-example-navbar-collapse-1"         
         >
-          <ul className="nav navbar-nav navbar-right">
+          <ul className="nav navbar-nav navbar-right" >
             <li>
               <a href="#features" className="page-scroll">
-                Features
+                Home
               </a>
             </li>
             <li>
               <a href="#about" className="page-scroll">
-                About
+                Submission
               </a>
             </li>
             <li>
               <a href="#services" className="page-scroll">
-                Services
+                Program
               </a>
             </li>
             <li>
               <a href="#portfolio" className="page-scroll">
-                Gallery
+                Committees
               </a>
             </li>
             <li>
               <a href="#testimonials" className="page-scroll">
-                Testimonials
+                Venue
               </a>
             </li>
             <li>
-              <a href="#team" className="page-scroll">
-                Team
+              <a href="#team1" className="page-scroll">
+                Registration
               </a>
             </li>
             <li>
+               <a href="mailto:icitee2025@it.kmitl.ac.th" className="email-link">
+                <i className="fa-solid fa-envelope"></i> icitee2025@it.kmitl.ac.th
+              </a>
               <a href="#contact" className="page-scroll">
-                Contact
+                
               </a>
             </li>
           </ul>

@@ -413,6 +413,33 @@ header .intro-text {
   position: relative;
   padding: 20px;
 }
+#testimonials2 {
+  padding: 100px 0;
+  background: #f6f6f6;
+}
+#testimonials2 i {
+  color: #e6e6e6;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.testimonial2 {
+  position: relative;
+  padding: 20px;
+}
+#testimonials3 {
+  padding: 100px 0;
+  background: #f6f6f6;
+}
+#testimonials3 i {
+  color: #e6e6e6;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.testimonial {
+  position: relative;
+  padding: 20px;
+}
+
 .testimonial-image {
   float: left;
   margin-right: 15px;
@@ -440,20 +467,20 @@ header .intro-text {
   color: #666;
 }
 /* Team Section */
-#team {
+#team1 {
   padding: 100px 0;
 }
-#team h4 {
+#team1 h4 {
   margin: 5px 0;
 }
-#team .team-img {
+#team1 .team-img {
   width: 240px;
 }
-#team .thumbnail {
+#team1 .thumbnail {
   background: transparent;
   border: 0;
 }
-#team .thumbnail .caption {
+#team1 .thumbnail .caption {
   padding: 10px 0 0;
   color: #888;
 }

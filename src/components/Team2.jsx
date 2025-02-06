@@ -1,8 +1,8 @@
 import React from "react";
 
-export const Team = (props) => {
+export const Team2 = (props) => {
   return (
-    <div id="team" className="text-center">
+    <div id="team2" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Organizer</h2>
